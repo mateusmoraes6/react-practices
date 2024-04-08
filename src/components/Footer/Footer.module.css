@@ -1,5 +1,5 @@
 .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     display: flex;
@@ -8,9 +8,11 @@
     background-color: #000;
     color: #fff;
     border-top: 2px solid aquamarine;
+    padding-block: 0.5rem;
 }
 
 .footer h2 {
     font-size: 1rem;
     font-weight: 500;
 }
+
