@@ -5,4 +5,11 @@
 .card img {
     width: 225px;
     border-radius: 8px;
+    transition: transform 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.15);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #222;
 }
