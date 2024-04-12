@@ -1,4 +1,4 @@
-import videos from "../../json/videos.json"
+import videos from "../../json/videos.json";
 import styles from "./Category.module.css";
 
 export const categories = [
@@ -21,7 +21,7 @@ function Category({ category, children }) {
                 { children }
             </div>
         </section>
-    )
+    );
 }
 
-export default Category
+export default Category;
