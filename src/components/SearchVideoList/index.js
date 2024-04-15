@@ -1,5 +1,5 @@
 import styles from "./SearchVideoList.module.css";
-import VideoList from "../../components/VideoList"
+import VideoList from "../../components/VideoList";
 import { useEffect, useState } from "react";
 import Loader from "../Loader";
 
@@ -19,7 +19,7 @@ function SearchVideoList({ videos }) {
     }, []);
 
     return (
-        <sectiom className={styles.container}>
+        <section className={styles.container}>
             <input 
                 type="search"
                 placeholder="Pesquisar..."
@@ -32,7 +32,7 @@ function SearchVideoList({ videos }) {
                     emptyHeading={`Sem vídeos sobre "${searchText}"`}
                 />
             }
-        </sectiom>
+        </section>
     );
 }
 
