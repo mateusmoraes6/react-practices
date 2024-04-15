@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { categories } from "../Category";
-import styles from "./Form.module.css"
+import styles from "./Form.module.css";
 
 function Form() {
 

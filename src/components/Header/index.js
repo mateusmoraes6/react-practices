@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Link } from "react-router-dom"
-import styles from "./Header.module.css"
+import { Link } from "react-router-dom";
+import styles from "./Header.module.css";
 
 function Header() {
     return (
@@ -14,7 +14,7 @@ function Header() {
                 <Link to="/favorites">Favoritos</Link>
             </nav>
         </header>
-    )
+    );
 }
 
 export default Header;
